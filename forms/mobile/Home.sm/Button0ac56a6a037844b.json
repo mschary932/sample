@@ -1,0 +1,49 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s270d000cbaa4325b6b5f1748644907e",
+    "_text_": "Appfactory",
+    "_top_": {
+        "type": "string",
+        "value": "102dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sdc72fa09ea546e0b73f04258f4bf9e2",
+    "id": "Button0ac56a6a037844b",
+    "info": null,
+    "isvisible": true,
+    "kuid": "g09f32dcf00943199603f88800649029",
+    "name": "kony.ui.Button",
+    "parent": "Home",
+    "pf": "Home",
+    "wType": "Button",
+    "zindex": 1
+}

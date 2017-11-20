@@ -1,0 +1,36 @@
+<properties>
+    <attributes name="project.type" value="js"/>
+    <attributes name="appversionkey" value="1.0.0"/>
+    <attributes name="mwportkey" value="80"/>
+    <attributes name="winmangotiletitlekey" value="Sample"/>
+    <attributes name="sessionmanager" value="Http Session Manager"/>
+    <attributes name="andtargetsdkkey" value="4.0"/>
+    <attributes name="mwaddrkey" value="10.10.12.125"/>
+    <attributes name="isNewAppWithRespectToAndroidPackageName" value="true"/>
+    <attributes name="iphonebundleidentifierkey" value="com.kony.Sample"/>
+    <attributes name="createdgaversion" value="7.0.0"/>
+    <attributes name="win8displaynamekey" value="Sample"/>
+    <attributes name="studiovizproject" value="true"/>
+    <attributes name="build" value="debug"/>
+    <attributes name="currentgaversion" value="3.0.0.qualifier"/>
+    <attributes name="appidkey" value="Sample"/>
+    <attributes name="ioscheckboxcorrection" value="true"/>
+    <attributes name="mwhttpsportkey" value="443"/>
+    <attributes name="apppackagekey" value="com.orgname.Sample"/>
+    <attributes name="iosrespectimagesizecorrection" value="true"/>
+    <attributes name="iostextboxpaddingcorrection" value="true"/>
+    <attributes name="vendornamekey" value="KonyLabs"/>
+    <attributes name="marginsincludedinwidgetcontainerweight" value="true"/>
+    <attributes name="iospopuptransitioncorrection" value="true"/>
+    <attributes name="appnamekey" value="Sample"/>
+    <attributes name="win6xj2meonlysupported" value="false"/>
+    <attributes name="APPLICATION_THEME" value="default"/>
+    <attributes name="SELECTED_THEME" value="default"/>
+    <attributes name="Server side mobile web" value="false"/>
+    <attributes name="lastmodifiedtime" value="0"/>
+    <attributes name="cloud_url" value="https://empselfservice1.konycloud.com"/>
+    <attributes name="cloud_env_name" value="Apps Dev 1-Emp Self Service 1"/>
+    <attributes name="cloud_env_GUID" value="43a525ae-ca89-42cc-9742-f997335180ac"/>
+    <attributes name="cloud_account_id" value="100017816"/>
+    <attributes name="cloud_account_guid" value="147abad9-e5d0-4108-ab0b-70743455dc49"/>
+</properties>
