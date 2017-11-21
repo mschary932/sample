@@ -26,6 +26,6 @@
     <pluginInfo version-no="8.0.0.v201709121455" plugin-id="com.kony.spa" plugin-name="SPA"/>
     <pluginInfo version-no="8.0.0.v201709121449" plugin-id="com.kony.desktopweb" plugin-name="Kony Desktop Web"/>
     <pluginInfo version-no="8.0.0.201709061514" plugin-id="com.kony.webcommons" plugin-name="Kony Web Commons"/>
-    <pluginInfo version-no="8.0.3.v201711021353" plugin-id="com.kony.ios" plugin-name="iOS Plugin"/>
+    <pluginInfo version-no="7.3.0.GA_v201707061901_r13" plugin-id="com.kony.ios" plugin-name="iOS Plugin"/>
     <pluginInfo version-no="8.0.1.v201710121352" plugin-id="com.kony.mobile.fabric.client.sdk" plugin-name="MobileFabric Client SDK"/>
 </plugins>
