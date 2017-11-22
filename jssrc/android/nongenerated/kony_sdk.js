@@ -1,5 +1,5 @@
 /*
- * kony-sdk-ide Version 8.0.1
+ * kony-sdk-ide Version 8.0.5
  */
 /**
  * Kony namespace
@@ -166,7 +166,7 @@ kony.sdk.isInitialized = false;
 kony.sdk.currentInstance = null;
 kony.sdk.isLicenseUrlAvailable = true;
 kony.sdk.constants = kony.sdk.constants || {};
-kony.sdk.version = "8.0.1";
+kony.sdk.version = "8.0.5";
 kony.sdk.logger = new konyLogger();
 kony.sdk.logsdk = new konySdkLogger();
 kony.sdk.syncService = null;

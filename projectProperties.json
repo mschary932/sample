@@ -7,9 +7,9 @@
     "appaddrkey": "",
     "nativeContainerProperties": {
         "isModified": false,
-        "isEnableJSContainer": false,
-        "isEnableJSContainerAndroid": false,
-        "isEnableJSContaineriOS": false
+        "isEnableJSContainer": true,
+        "isEnableJSContainerAndroid": true,
+        "isEnableJSContaineriOS": true
     },
     "appnamekey": "Sample",
     "currentgaversion": "8.0.3",
