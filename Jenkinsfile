@@ -27,24 +27,23 @@ pipeline {
         sh 'Test services through local UTP Jenkins job'
       }
     }
-    stage(' Appfactory RetailBanking Client') {
-      steps {
-        sh 'Run Appfactory job through curl'
+    stage('Client Builds') {
+      parallel {
+        stage(' Appfactory RetailBanking Client') {
+          steps {
+            sh 'Run Appfactory job through curl, also takes care running Functional Tests with TestNG framework'
+          }
+        }
+        stage('AppFactory MB Client') {
+          steps {
+            sh 'Invoke Appfactory job through curl, also takes care running Functional Tests with TestNG framework'
+          }
+        }
       }
     }
-    stage('FunctionalTests on RB') {
+    stage('Success') {
       steps {
-        sh 'Run Functional Tests through UTP jenkins job'
-      }
-    }
-    stage('AppFactory MB build') {
-      steps {
-        sh 'Invoke Appfactory job through curl'
-      }
-    }
-    stage('Functional tests on MB') {
-      steps {
-        sh 'Run FunctionTests through UTP Jenkins job'
+        echo 'SUCCESS'
       }
     }
   }
