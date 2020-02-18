@@ -13,18 +13,28 @@ pipeline {
     }
     stage('AppFactory SpotlightServices build (Fabric)') {
       steps {
-        sh 'Invoke through Curl command.'
-        echo 'CustomHook to upload Artifacts & Manifest'
+        sh '''Invoke Appfactory job through Curl command.
+
+Post-build, a CustomHook in the Appfactory job takes care of -
+
+1. Upload & Publish artifacts
+2. Create Manifest
+3. Tag the manifest
+'''
       }
     }
     stage('AppFactory RetailBanking service build (Fabric)') {
       steps {
-        sh 'Pick the last passed build details'
+        sh 'Pick the last passed build details '
       }
     }
     stage('Test Services (Spotlight)') {
       steps {
-        sh 'Test services through local UTP Jenkins job'
+        sh '''Test services through local UTP Jenkins job,
+
+A customhook to take care of -
+
+1. Upload test results with manifestID.'''
       }
     }
     stage('Client Builds') {
