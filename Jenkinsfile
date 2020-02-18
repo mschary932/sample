@@ -44,7 +44,7 @@ A customhook to take care of -
             sh 'Run Appfactory job through curl, also takes care running Functional Tests with TestNG framework'
           }
         }
-        stage('AppFactory MB Client') {
+        stage('AppFactory MobileBanking Client') {
           steps {
             sh 'Invoke Appfactory job through curl, also takes care running Functional Tests with TestNG framework'
           }
